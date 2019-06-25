@@ -1,0 +1,22 @@
+.app-main {
+  text-align: center;
+  .app-main-title {
+    display: inline-block;
+    margin-top: 150px;
+    font-size: 100px;
+    font-weight: 700;
+  }
+  .app-main-sub_title {
+    margin-top: 20px;
+    padding: 1.2rem 3rem;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #20c997;
+    border: 3px solid #20c997;
+  }
+}
+.app-serach {
+  margin-top: 100px;
+  text-align: center;
+}
