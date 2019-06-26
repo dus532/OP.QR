@@ -1,3 +1,4 @@
 import Main from "./main";
+import Search from "./search";
 
-export { Main };
+export { Main, Search };
