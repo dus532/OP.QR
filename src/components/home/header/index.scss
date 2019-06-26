@@ -1,13 +1,22 @@
-.app_license {
-  text-align: right;
+.header {
+  display: flex;
+  justify-content: space-between;
   font-weight: 700;
   font-size: 16px;
+  background: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  background: rgba(255, 255, 255, 0.1);
   position: fixed;
   width: 100%;
 
-  .app_license_text {
+  div {
     padding: 40px;
+    background: white;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+
+  .app_home:hover {
+    transition: 0.25s;
+    color: #0ca678;
   }
 }
