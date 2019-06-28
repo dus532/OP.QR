@@ -4,13 +4,13 @@
   font-weight: 700;
   font-size: 16px;
   background: white;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
   position: fixed;
   width: 100%;
+  top: 0px;
 
   div {
-    padding: 40px;
-    background: white;
+    padding: 30px;
     transition: 0.25s;
     cursor: pointer;
   }
