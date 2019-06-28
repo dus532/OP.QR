@@ -10,11 +10,13 @@ function App() {
     <MyContext.Provider value={{ ...RiotAPI() }}>
       <Router>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Main} />
-          <Route exact path="/search/:username" component={Search} />
-          <Route component={Main} />
-        </Switch>
+        <div className="container">
+          <Switch>
+            <Route exact path="/" component={Main} />
+            <Route exact path="/search/:username" component={Search} />
+            <Route component={Main} />
+          </Switch>
+        </div>
       </Router>
     </MyContext.Provider>
   );
