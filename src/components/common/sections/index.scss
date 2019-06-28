@@ -1,4 +1,7 @@
 .section {
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
   max-width: 600px;
   margin: 0 auto;
   padding: 32px;
@@ -18,4 +21,31 @@
     }
   }
   border-bottom: 1px solid #ddd;
+
+  animation: fade 1s;
+}
+
+.section_loading {
+  animation: shake 0.5s infinite;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  from {
+    top: 0px;
+  }
+  50% {
+    top: 4px;
+  }
+  to {
+    top: 0px;
+  }
 }

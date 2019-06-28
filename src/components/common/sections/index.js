@@ -3,7 +3,7 @@ import "./index.scss";
 
 export default function Sections(props) {
   return (
-    <div className="section">
+    <div className={`section ${props.className}`}>
       <div>
         <div className="section_big">{props.title}</div>
         <div className="section_small">{props.subtitle}</div>
